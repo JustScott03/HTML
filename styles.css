@@ -1,6 +1,3 @@
-p{
-    opacity:2;
-}
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -43,6 +40,8 @@ nav a:hover {
 
 main {
     padding: 2em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
 }
 
 @font-face{ 
@@ -56,10 +55,28 @@ color : pink;
 font-size : 100px ;
 align-self: center;
 opacity:1;
+font-weight: bold;
 }
 h2 {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: pink;
+    color: rgb(255, 162, 178);
     font-size : 40px;
     text-align: center;
+}
+.paw1{
+    position:absolute;
+    top: 150px;
+    left:200px;
+    width: 32px;
+    height: 32px;
+}
+.paw2{
+    position:absolute;
+    top: 150px;
+    right:200px;
+    width: 32px;
+    height: 32px;
+}
+main{
+    font-weight:400;
 }
