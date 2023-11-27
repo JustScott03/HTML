@@ -63,23 +63,7 @@ h2 {
     font-size : 40px;
     text-align: center;
 }
-.paw1{
-    position:absolute;
-    top: 150px;
-    left:200px;
-    width: 32px;
-    height: 32px;
-}
-.paw2{
-    position:absolute;
-    top: 150px;
-    right:200px;
-    width: 32px;
-    height: 32px;
-}
-main{
-    font-weight:400;
-}
+
 
 .opening_hours * {
     background-color: #e15e83;
