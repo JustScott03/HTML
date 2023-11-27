@@ -80,3 +80,65 @@ h2 {
 main{
     font-weight:400;
 }
+
+.opening_hours * {
+    background-color: #e15e83;
+    text-align: left;
+    line-height: 120%;
+    width: 25%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+
+}
+
+.info * {
+    background-color: #a93b5a;
+    text-align: center;
+    line-height: 80%;
+    
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.site-footer {
+    background-color: #a93b5a;
+    text-align: center;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #e15e83;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;   
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=Send] {
+    background-color: #a93b5a;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=Send]:hover {
+    background-color: #e15e83;
+}
+
+.containter {
+    border-radius: 5px;
+    background-color: #e15e83;
+    padding: 20px;
+}
