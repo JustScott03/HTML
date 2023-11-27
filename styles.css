@@ -63,3 +63,34 @@ h2 {
     font-size : 40px;
     text-align: center;
 }
+box
+{
+                width: 100px;
+                height: 100px;
+                border: 2px solid pink;
+                padding: 25px;
+                margin: 50px;
+                text-align: center;
+                box-sizing: border-box;
+            }
+    
+            box1 {
+                background-color: #ff9999;
+                position: relative;
+                top: 20px;
+                left: 20px;
+            }
+    
+            box2 {
+                background-color: #99ff99;
+                position: absolute;
+                top: 50px;
+                left: 150px;
+            }
+    
+            box3 {
+                background-color: #9999ff;
+                position: fixed;
+                top: 20px;
+                right: 20px;
+            }
