@@ -22,7 +22,7 @@
         <div style="background-image:url(images/backcat.jpg.jpeg); background-color: white;">
         <br>
         <main>
-            <section class="opening_hours">
+            <section class="opening_hours" style´="display: inline-block;">
                 <table style="display: block; border-color: #a93b5a;" >
                     <tr><th colspan="2"><h3>Computer Passessing Unit</h3>
                     </tr>
@@ -67,14 +67,15 @@
             </section>
             <br><br><br>
         </main>
-
         <h3>Contact Form</h3>
-        <div class="form">
+        <div class="form" style="display: inline-block;">
             <form action="=/action_page.php">
                 <label for="fname">First Name</label>
                 <input type="text" id="lname" name="firstname" placeholder="Your first name..">
                 <label for="lname">Last Name</label>
                 <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <label for="email">Your Email</label>
+                <input type="text" id="email" name="email" aria-placeholder="Your email address">
                 <label for="country">Country</label>
                 <select id="country" name="country">
                     <option value="Ireland">Ireland</option>

@@ -68,10 +68,10 @@ h2 {
 .opening_hours * {
     background-color: #e15e83;
     text-align: left;
-    line-height: 120%;
-    width: 25%;
+    line-height: 90%;
+    width: 200px;
     padding-bottom: 1%;
-    padding-left: 1%;
+    padding-left: 5%;
 
 }
 
@@ -98,18 +98,20 @@ ul {
 }
 
 input[type=text], select, textarea {
-    width: 100%;
+    width: 70%;
     padding: 12px;
-    border: 1px solid #e15e83;
+    border: 2px solid #e15e83;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;   
     margin-bottom: 16px;
+    margin-left: 50px;
+    margin-right: 10px;
     resize: vertical;
 }
 
 input[type=Send] {
-    background-color: #a93b5a;
+    background-color: #e15e83;
     color: #fff;
     padding: 12px 20px;
     border: none;
@@ -118,11 +120,12 @@ input[type=Send] {
 }
 
 input[type=Send]:hover {
-    background-color: #e15e83;
+    background-color: #a93b5a;
 }
 
-.containter {
+.form {
     border-radius: 5px;
-    background-color: #e15e83;
+    border-color: #e15e83;
+    margin-left: 20%;
     padding: 20px;
 }
