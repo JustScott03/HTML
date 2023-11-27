@@ -140,3 +140,46 @@ input[type=Send]:hover {
     height: 32px;
     width: 32px;
 }
+.paw3{
+    position:absolute;
+    left:37%;
+    top:21%;
+    height: 32px;
+    width: 32px;
+}
+.paw4{
+    position:absolute;
+    right:37%;
+    top:21%;
+    height: 32px;
+    width: 32px;
+}
+.paw5{
+    position:absolute;
+    left:33%;
+    top:21%;
+    height: 32px;
+    width: 32px;
+
+}
+.paw6{
+    position:absolute;
+    right:33%;
+    top:21%;
+    height: 32px;
+    width: 32px;
+}
+.paw7{
+    position:absolute;
+    left:35%;
+    top:21%;
+    height: 32px;
+    width: 32px;
+}
+.paw8{
+    position:absolute;
+    right:35%;
+    top:21%;
+    height: 32px;
+    width: 32px;
+}
