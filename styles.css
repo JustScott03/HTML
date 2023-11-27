@@ -63,34 +63,66 @@ h2 {
     font-size : 40px;
     text-align: center;
 }
-box
-{
-                width: 100px;
-                height: 100px;
-                border: 2px solid pink;
-                padding: 25px;
-                margin: 50px;
-                text-align: center;
-                box-sizing: border-box;
-            }
+
+
+.opening_hours * {
+    background-color: #e15e83;
+    text-align: left;
+    line-height: 120%;
+    width: 25%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+
+}
+
+.info * {
+    background-color: #a93b5a;
+    text-align: center;
+    line-height: 80%;
     
-            box1 {
-                background-color: #ff9999;
-                position: relative;
-                top: 20px;
-                left: 20px;
-            }
-    
-            box2 {
-                background-color: #99ff99;
-                position: absolute;
-                top: 50px;
-                left: 150px;
-            }
-    
-            box3 {
-                background-color: #9999ff;
-                position: fixed;
-                top: 20px;
-                right: 20px;
-            }
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.site-footer {
+    background-color: #a93b5a;
+    text-align: center;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #e15e83;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;   
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=Send] {
+    background-color: #a93b5a;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=Send]:hover {
+    background-color: #e15e83;
+}
+
+.containter {
+    border-radius: 5px;
+    background-color: #e15e83;
+    padding: 20px;
+}
