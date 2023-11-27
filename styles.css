@@ -35,7 +35,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #999;
+    background-color: rgb(239, 102, 148);
 }
 
 main {
@@ -59,7 +59,7 @@ font-weight: bold;
 }
 h2 {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(255, 162, 178);
+    color: rgb(117, 3, 22);
     font-size : 40px;
     text-align: center;
 }
@@ -128,4 +128,61 @@ input[type=Send]:hover {
     border-color: #e15e83;
     margin-left: 20%;
     padding: 20px;
+}
+.paw1{
+    position:absolute;
+    left:16%;
+    top:21%;
+    height: 32px;
+    width: 32px;
+}
+.paw2{
+    position:absolute;
+    right:16%;
+    top:21%;
+    height: 32px;
+    width: 32px;
+}
+.paw3{
+    position:absolute;
+    left:37%;
+    top:21%;
+    height: 32px;
+    width: 32px;
+}
+.paw4{
+    position:absolute;
+    right:37%;
+    top:21%;
+    height: 32px;
+    width: 32px;
+}
+.paw5{
+    position:absolute;
+    left:33%;
+    top:21%;
+    height: 32px;
+    width: 32px;
+
+}
+.paw6{
+    position:absolute;
+    right:33%;
+    top:21%;
+    height: 32px;
+    width: 32px;
+}
+.paw7{
+    position:absolute;
+    left:35%;
+    top:21%;
+    height: 32px;
+    width: 32px;
+}
+.paw8{
+    position:absolute;
+    right:35%;
+    top:21%;
+    height: 32px;
+    width: 32px;
 }
