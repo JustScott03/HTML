@@ -2,36 +2,27 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    opacity:100%
+    background-color: #f4f4f4;
 }
 
 header {
-    background-color: #801c38;
+    background-color: #333;
     color: #fff;
     text-align: center;
     padding: 1em;
 }
 
 nav {
-    background-color: #a93b5a;
-    padding: .5em;
-    margin:0 auto;
-    list-style: none;
-}
-nav li{
-    float:left;
-}
+    background-color: #555;
+    padding: .5em;}
+
 nav a {
-    color: #000000;
+    color: #fff;
     text-decoration: none;
     padding: 0.5em 1em;
     margin: 0 0.5em;
     border-radius: 4px;
-    background-color: #e15e83; 
-    display:block;
-    text-align: center;
-    width: auto;
-
+    background-color: #777;
 }
 
 nav a:hover {
@@ -40,8 +31,6 @@ nav a:hover {
 
 main {
     padding: 2em;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
 }
 
 @font-face{ 
@@ -54,12 +43,7 @@ font-family: Meowcat Regular;
 color : pink; 
 font-size : 100px ;
 align-self: center;
-opacity:1;
-font-weight: bold;
 }
-h2 {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(255, 162, 178);
-    font-size : 40px;
-    text-align: center;
+
+div {
 }
