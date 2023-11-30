@@ -35,7 +35,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #999;
+    background-color: rgb(239, 102, 148);
 }
 
 main {
@@ -59,7 +59,143 @@ font-weight: bold;
 }
 h2 {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(255, 162, 178);
+    color: rgb(117, 3, 22);
     font-size : 40px;
     text-align: center;
+}
+
+
+.opening_hours * {
+    background-color: #e15e83;
+    text-align: left;
+    line-height: 90%;
+    width: 200px;
+    padding-bottom: 1%;
+    padding-left: 5%;
+
+}
+
+.info * {
+    background-color: #a93b5a;
+    text-align: center;
+    line-height: 80%;
+    
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.site-footer {
+    background-color: #a93b5a;
+    text-align: center;
+}
+
+input[type=text], select, textarea {
+    width: 70%;
+    padding: 12px;
+    border: 2px solid #e15e83;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;   
+    margin-bottom: 16px;
+    margin-left: 50px;
+    margin-right: 10px;
+    resize: vertical;
+}
+
+input[type=Send] {
+    background-color: #e15e83;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=Send]:hover {
+    background-color: #a93b5a;
+}
+
+.form {
+    border-radius: 5px;
+    border-color: #e15e83;
+    margin-left: 20%;
+    padding: 20px;
+}
+.paw1{
+    position:absolute;
+    left:16%;
+    top:21%;
+    height: 32px;
+    width: 32px;
+}
+.paw2{
+    position:absolute;
+    right:16%;
+    top:21%;
+    height: 32px;
+    width: 32px;
+}
+.paw3{
+    position:absolute;
+    left:37%;
+    top:21%;
+    height: 32px;
+    width: 32px;
+}
+.paw4{
+    position:absolute;
+    right:37%;
+    top:21%;
+    height: 32px;
+    width: 32px;
+}
+.paw5{
+    position:absolute;
+    left:33%;
+    top:21%;
+    height: 32px;
+    width: 32px;
+
+}
+.paw6{
+    position:absolute;
+    right:33%;
+    top:21%;
+    height: 32px;
+    width: 32px;
+}
+.paw7{
+    position:absolute;
+    left:35%;
+    top:21%;
+    height: 32px;
+    width: 32px;
+}
+.paw8{
+    position:absolute;
+    right:35%;
+    top:21%;
+    height: 32px;
+    width: 32px;
+}
+.col-xs-24 {
+    width: 100%;
+}
+.col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-13, .col-xs-14, .col-xs-15, .col-xs-16, .col-xs-17, .col-xs-18, .col-xs-19, .col-xs-2, .col-xs-20, .col-xs-21, .col-xs-22, .col-xs-23, .col-xs-24, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    float: left;
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-13, .col-lg-14, .col-lg-15, .col-lg-16, .col-lg-17, .col-lg-18, .col-lg-19, .col-lg-2, .col-lg-20, .col-lg-21, .col-lg-22, .col-lg-23, .col-lg-24, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-13, .col-md-14, .col-md-15, .col-md-16, .col-md-17, .col-md-18, .col-md-19, .col-md-2, .col-md-20, .col-md-21, .col-md-22, .col-md-23, .col-md-24, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-13, .col-sm-14, .col-sm-15, .col-sm-16, .col-sm-17, .col-sm-18, .col-sm-19, .col-sm-2, .col-sm-20, .col-sm-21, .col-sm-22, .col-sm-23, .col-sm-24, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-13, .col-xs-14, .col-xs-15, .col-xs-16, .col-xs-17, .col-xs-18, .col-xs-19, .col-xs-2, .col-xs-20, .col-xs-21, .col-xs-22, .col-xs-23, .col-xs-24, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
 }
