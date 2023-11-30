@@ -199,3 +199,11 @@ input[type=Send]:hover {
     padding-right: 15px;
     position: relative;
 }
+
+.youtube-vid {
+    position: absolute;
+    margin: auto;
+    top: 210%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
