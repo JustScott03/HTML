@@ -22,40 +22,37 @@
         <div style="background-image:url(images/backcat.jpg.jpeg); background-color: white;">
         <br>
         <main>
-            <section class="opening_hours" style´="display: inline-block;">
-                <table style="display: block; border-color: #a93b5a;" >
-                    <tr><th colspan="2"><h3>Computer Passessing Unit</h3>
+            <img src="C:\Users\elins\Documents\GitHub\HTML\images\map_MewCity.png" alt="mapMewcity" width="55%" height="35%" style="float:right">
+            <section class="opening_hours" style="display: inline-block;">
+                <table style="display: block;">
+                    <tr>
+                        <th style="width: 70%;"><h3>Computer Passessing Unit</h3></th>
                     </tr>
                     <tr>
-                        <th colspan="2"><h4><strong>Hours</strong></h4></th>
+                        <th>Hours</th>
                     </tr>
                     <tr>
-                        <td>Mon:</td>
-                        <td>7:00 AM - 6 PM</td>
+                        <td>Mon: 7:00 AM - 6 PM</td>
                     </tr>
                     <tr>
-                        <td>Tue:</td>
-                        <td>7:00 AM - 6 PM</td>
+                        <td>Tue: 7:00 AM - 6 PM</td>
                     </tr>
                     <tr>
-                        <td>Wed:</td>
-                        <td>8:00 AM - 7 PM</td>
+                        <td>Wed: 8:00 AM - 7 PM</td>
                     </tr>
                     <tr>
-                        <td>Thu:</td>
-                        <td>8:00 AM - 7 PM</td>
+                        <td>Thu: 8:00 AM - 7 PM</td>
                     </tr>   
                     <tr>
-                        <td>Fri:</td>
-                        <td>8:00 AM - 7 PM</td>
+                        <td>Fri: 8:00 AM - 7 PM</td>
                     </tr>
                     <tr>
-                        <td>Sat:</td>
-                        <td>10:00 AM - 3 PM</td>
+                        <td>Sat: 10:00 AM - 3 PM</td>
                     </tr>
-                        
-                        <td>Sun:</td>
-                        <td>Closed</td>
+                        <td>Sun: Closed</td>
+                    </tr>
+                    <tr>
+                        <td></td>
                     </tr>
                     <tr>
                         <th>Address</th>
@@ -67,15 +64,18 @@
             </section>
             <br><br><br>
         </main>
-        <h3>Contact Form</h3>
+        <h2>Contact Form</h2>
         <div class="form" style="display: inline-block;">
-            <form action="=/action_page.php">
+            <form action="https://formsubmit.co/computer.passessingunit@gmail.com" method="post" class="form">
                 <label for="fname">First Name</label>
                 <input type="text" id="lname" name="firstname" placeholder="Your first name..">
+                <br>
                 <label for="lname">Last Name</label>
                 <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <br>
                 <label for="email">Your Email</label>
-                <input type="text" id="email" name="email" aria-placeholder="Your email address">
+                <input type="text" id="email" name="email" placeholder="Your email address">
+                <br>
                 <label for="country">Country</label>
                 <select id="country" name="country">
                     <option value="Ireland">Ireland</option>
@@ -85,10 +85,18 @@
                     <option value="Canada">Canada</option>
                     <option value="world">Rest of the World</option>
                 </select>
+                <br>
                 <label for="Message">Message</label>
                 <textarea id="Message" name="Message" placeholder="Write here.." style="height: 200px;"></textarea>
-                <input type="Send" value="Send">
+                <br>
+                <button type="submit" formmethod="post">Send</button>
             </form>
+            <script>
+                $('.form') .ready,function(){
+                    swal("Titel", "Message Content", "Success", {button:"Ok",});
+                }
+            </script>
+            
         </div>
         
         <section class="info">
@@ -127,8 +135,7 @@
         </section>
 
         </div>
-        <footer id="footer" class="site-footer"
-        role="conentinfo">
+        <footer id="footer" class="site-footer" role="conentinfo">
             <div class="footer--container">
                 <div class="site--logo">
                     <a href="images\paw-32.ico" aria-label="Contact">
@@ -136,24 +143,24 @@
                         </svg>
                     </a>
                 </div>
-                <nav class="footer-nav">
-                    <div class="site-footer--col">
+                <nav class="footer--nav">
+                    <div class="footer--call" style="float: left;">
                         <h5>Call Us</h5>
-                        <ul class="list--number">
+                        <ul class="list--call">
                             <li>General Inquiries</li>
                             <li>+353 1231234</li>
                             <li>Outside Ireland</li>
                             <li>+353 3214321</li>
                         </ul>
                     </div>
-                    <div class="site-footer--col">
+                    <div class="footer--email" style="float: center;">
                         <h5>Email Us</h5>
                         <ul class="list--email">
                             <li>General Inquiries</li>
                             <li>Computer.PassessingUnit@gmail.com</li>
                         </ul>
                     </div>
-                    <div class="site-footer--col">
+                    <div class="footer--media" style="float: right;">
                         <h5>Follow Us</h5>
                             <ul class="list--media">
                                 <li><img src="C:\Users\elins\Documents\GitHub\HTML\images\Facebook-logo-blue-circle-large-transparent-png.png" width="20" height="20"> @ComputerPawssessingUnit</li>
