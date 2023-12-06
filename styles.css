@@ -31,7 +31,6 @@ nav a {
     display:block;
     text-align: center;
     width: auto;
-
 }
 
 nav a:hover {
@@ -57,6 +56,7 @@ align-self: center;
 opacity:1;
 font-weight: bold;
 }
+
 h2 {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(117, 3, 22);
@@ -64,15 +64,44 @@ h2 {
     text-align: center;
 }
 
-
 .opening_hours * {
+    position: relative;
     background-color: #e15e83;
     text-align: left;
-    line-height: 90%;
-    width: 200px;
-    padding-bottom: 1%;
     padding-left: 5%;
+    padding-bottom: 2%;
+}
 
+input[type=text], select, textarea {
+   
+   border: 2px solid #e15e83;
+   padding: 7%;
+   outline-color: #a93b5a;  
+   width: 550%;  
+}
+
+form {
+    font-size: large;
+    line-height: 2;
+    position: relative; 
+    resize: vertical;  
+}  
+
+button {
+    background-color: #e15e83;
+    padding: 5% 15%;
+    text-align: center;
+    font-size: large;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    transition-duration: 0.1s;
+}
+
+button:hover {
+    background-color: #a93b5a;
+    color: white;
 }
 
 .info * {
@@ -97,38 +126,10 @@ ul {
     text-align: center;
 }
 
-input[type=text], select, textarea {
-    width: 70%;
-    padding: 12px;
-    border: 2px solid #e15e83;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;   
-    margin-bottom: 16px;
-    margin-left: 50px;
-    margin-right: 10px;
-    resize: vertical;
+.footer--call {
+    list-style-type: float-left;
 }
 
-input[type=Send] {
-    background-color: #e15e83;
-    color: #fff;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-input[type=Send]:hover {
-    background-color: #a93b5a;
-}
-
-.form {
-    border-radius: 5px;
-    border-color: #e15e83;
-    margin-left: 20%;
-    padding: 20px;
-}
 .paw1{
     position:absolute;
     left:16%;
