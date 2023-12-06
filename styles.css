@@ -202,21 +202,24 @@ ul {
 }
 
 .column {
-    float: left;
-  }
+    float: left
+}
+
+.row {
+    display: flex;
+    width: 100%;
+}
   
-  .left {
+.left {
     width: 25%;
     display: flex;
-
-  }
+}
   
-  .right {
+.right {
     width: 75%;
-  }
+}
 
 .youtube-vid {
     display: flex;
     justify-content: center;
-    
 }
